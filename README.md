@@ -4,12 +4,19 @@ Multichannel mpeg-ts analizer
 linux multicast setup:
 --------------------------
 /etc/sysctl.conf
+
 net.ipv4.conf.[eth0].force_igmp_version=2
+
 net.ipv4.conf.[eth0].rp_filter=0
+
 net.core.rmem_max = 1048576
+
 net.core.rmem_default=1048576
+
 net.ipv4.udp_mem = 8388608 12582912 16777216
+
 sudo sysctl -p
+
 
 /etc/rc.local
 route add -net 224.0.0.0/16 dev [eth0]
