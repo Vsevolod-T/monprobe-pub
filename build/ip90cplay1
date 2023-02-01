@@ -1,0 +1,3 @@
+
+/home/dvb/media/tsplay /home/dvb/media/scifi.ts 239.255.72.2:5500 -udp -i 192.168.72.204 -loop
+

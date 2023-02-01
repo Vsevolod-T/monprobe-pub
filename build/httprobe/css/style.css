@@ -1,0 +1,138 @@
+
+body {
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.up_panel {
+	margin:auto;
+	display: flex;
+	flex-direction: row;
+	border-bottom: 2px solid #f76707;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: normal;
+	color: white;
+	width: 100%;
+	height: 35px;
+	padding: 10px;
+	margin: 2px;
+}
+
+.list_ch {
+	width: 15%;
+	height: 92vh;
+	float: left;
+	border-right: 2px solid #f76707;
+	color: white;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.s_ch:hover {
+	background-color: gray;
+}
+
+
+/* INDICAT */
+.list_status {
+	width: 32%;
+	height: 92vh;
+	float: left;
+	margin: 2px;
+	overflow: hidden;
+}
+
+.list_status>*{
+	
+	
+	width:  calc(100vw/35);
+ 	height: calc(100vh/45);
+	max-height: calc(100vw/35);
+
+	float: left;
+	background-color: rgb(1, 255, 1);
+	margin: 1px;
+}
+/*
+.indicator {
+	height: calc(100vh/45);
+	max-height: 10%;
+}
+*/
+
+.canvas {
+	width: 30%;
+	height: 100px;
+	float: left;
+	margin: 0px;
+	padding:2px;
+}
+
+.list_es {
+	width: 50%;
+	height: calc(60vw);
+	float: left;
+	margin: 2px;
+	overflow: hidden;
+}
+
+/* TABLE */
+table.detailTable {
+	width: 100%;
+	text-align: left;
+	border-collapse: collapse;
+  }
+
+  table.detailTable caption {
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFFF;
+	border-left: 1px solid #f76707;
+	border-bottom: 1px solid #f76707;
+  }
+
+  table.detailTable td, table.detailTable th {
+	border-bottom: 1px solid #f76707;
+	border-left: 1px solid #f76707;
+	padding: 3px 2px;
+	color: #FFFFFF;
+	background-color: rgb(71, 77, 71);
+  }
+  table.detailTable tbody td {
+	font-size: 13px;
+  }
+ 
+  table.detailTable thead {
+	border-left: 1px solid #f76707;
+  }
+
+  table.detailTable thead th {
+	font-size: 15px;
+	font-weight: bold;
+	color: #FFFFFF;
+  }
+  table.detailTable thead th:first-child {
+	border-left: none;
+  }
+ 
+  table.detailTable thead th:nth-child(1) {
+	width: 5%;
+  }
+  table.detailTable thead th:nth-child(2) {
+	width: 5%;
+  }
+  table.detailTable thead th:nth-child(3) {
+	width: 65;
+  }
+  table.detailTable thead th:nth-child(4) {
+	width: 10%;
+  }
+  table.detailTable thead th:nth-child(5) {
+	width: 5%;
+  }
+  table.detailTable thead th:nth-child(6) {
+	width: 10%;
+  }

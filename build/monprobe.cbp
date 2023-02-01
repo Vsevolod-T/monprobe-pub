@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="monprobe"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/dvb/Project/monprobe/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/dvb/Project/monprobe/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monprobe">
+				<Option output="/home/dvb/Project/monprobe/build/monprobe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dvb/Project/monprobe/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dvb/Project/monprobe"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 monprobe"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="monprobe/fast">
+				<Option output="/home/dvb/Project/monprobe/build/monprobe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dvb/Project/monprobe/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/dvb/Project/monprobe"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 monprobe/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/dvb/Project/monprobe/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dvb/Project/monprobe/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/dvb/Project/monprobe/ES_AAC.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_AAC.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_AC3.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_AC3.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_MPEGAudio.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_MPEGAudio.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_MPEGVideo.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_MPEGVideo.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_Subtitle.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_Subtitle.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_Teletext.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_Teletext.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_h264.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_h264.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_hevc.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ES_hevc.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/bitstream.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/bitstream.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/main.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/sha256.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/sha256.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tanalizeres.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tanalizeres.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tanalizerts.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tanalizerts.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tauth.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tauth.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tchannel.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tchannel.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tchannelmeasure.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tchannelmeasure.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tconfig.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tconfig.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tdecode.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tdecode.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tglobal.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tglobal.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/theader.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/theader.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/thread_rcv_af.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/thread_rcv_af.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/thttp.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/thttp.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tini.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tini.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tinterface.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tinterface.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tlog.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tlog.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tmain.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tmain.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/trawes.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/trawes.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/trawts.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/trawts.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tstatistic.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tstatistic.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ttime.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/ttime.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tui.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/tui.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/twsconnection.cpp">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/twsconnection.h">
+			<Option target="monprobe"/>
+		</Unit>
+		<Unit filename="/home/dvb/Project/monprobe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

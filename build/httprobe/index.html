@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>IPTV probe</title>
+	
+	
+	<script src="js/libws.js"></script>
+	<script src="js/libcv.js"></script>
+	<script src="js/main.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="css/modal.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<!--
+-->
+	<div id="id01" class="modal">
+		<form class="modal-content" action="javascript:void(0);" onsubmit="button_enter();">
+			<div class="container">
+				<label for="uname"><b>Username</b></label>
+				<input type="text" placeholder="Enter Username" name="login" required>
+				<label for="psw"><b>Password</b></label>
+				<input type="password" placeholder="Enter Password" name="passw" required>
+				<button type="submit">Login</button>
+			</div>
+		</form>
+	</div>
+
+	<div class="up_panel">
+		<div id="id_place" class="s_address"></div>
+		<div id="id_interfaces" class="s_interface"></div>
+	</div>
+
+		<div id="list_ch" class="list_ch"></div>  <!-- left list -->
+
+		<div id="list_status" class="list_status"></div> <!-- indicators -->
+
+		<div class="list_es">  <!-- right - es list 
+
+			<canvas class="canvas"></canvas>
+			<canvas class="canvas"></canvas>
+-->
+			<table id="detailTable" class="detailTable">
+				<caption id="selChannel"></caption>
+				<thead>
+				<tr><th>pid</th><th>type</th><th>Desc</th><th>traff</th><th>err</th><th>min</th></tr>
+				</thead>
+				<tbody id="detailTableBody"></tbody>
+			</table>
+
+		</div>
+
+
+</body>
+</html>
